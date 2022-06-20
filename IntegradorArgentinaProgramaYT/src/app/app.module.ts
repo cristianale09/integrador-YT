@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './Components/header/header.component';
-import { LofoAPComponent } from './Components/lofo-ap/lofo-ap.component';
+import { LogoAPComponent } from './Components/logo-ap/logo-ap.component';
 import { SocialComponent } from './Components/social/social.component';
 import { BannerComponent } from './Components/banner/banner.component';
 
@@ -12,7 +12,7 @@ import { BannerComponent } from './Components/banner/banner.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    LofoAPComponent,
+    LogoAPComponent,
     SocialComponent,
     BannerComponent
   ],

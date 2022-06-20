@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LofoAPComponent } from './lofo-ap.component';
+import { LogoAPComponent } from './logo-ap.component';
 
-describe('LofoAPComponent', () => {
-  let component: LofoAPComponent;
-  let fixture: ComponentFixture<LofoAPComponent>;
+describe('LogoAPComponent', () => {
+  let component: LogoAPComponent;
+  let fixture: ComponentFixture<LogoAPComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LofoAPComponent ]
+      declarations: [ LogoAPComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LofoAPComponent);
+    fixture = TestBed.createComponent(LogoAPComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
